@@ -17,8 +17,13 @@ svg,
 img,
 a,
 button,
-input {
+li {
   cursor: pointer;
+}
+
+li:hover, svg:hover, img:hover, a:hover, button:hover {
+  color: #98b020;
+  transition: 0.3s;
 }
 
 a {

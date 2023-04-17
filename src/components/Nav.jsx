@@ -1,6 +1,6 @@
 export default function Nav() {
   return (
-    <nav className="flex items-center justify-evenly w-full h-20 border-y text-xs " >
+    <nav className="flex items-center justify-evenly w-full h-20 border-y border-gray-300 text-xs " >
       <ul className="flex gap-8 text-sm">
         <li>ÓLEOS ESSENCIAIS</li>
         <li>ÓLEOS VEGETAIS</li>

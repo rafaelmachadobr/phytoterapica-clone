@@ -1,10 +1,9 @@
-import "./App.css";
-import Cabecalho from "./components/Cabecalho";
+import Header from "./components/Header";
 
 export default function App() {
   return (
     <>
-      <Cabecalho />
+      <Header />
     </>
   );
 }

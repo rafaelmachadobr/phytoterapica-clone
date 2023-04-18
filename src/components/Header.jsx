@@ -1,5 +1,3 @@
-import Logo from "../assets/logo.png";
-
 import { FiUser } from "react-icons/fi";
 import { AiOutlineShoppingCart, AiOutlinePercentage } from "react-icons/ai";
 import { FaMicrophone } from "react-icons/fa";
@@ -9,7 +7,11 @@ export default function Header() {
   return (
     <header className="flex justify-between items-center border-y py-6">
       <div>
-        <img src={Logo} alt="Logo" className="w-72 ml-16" />
+        <img
+          src="https://phytoterapica.vtexassets.com/assets/vtex/assets-builder/phytoterapica.tema-phytoterapica/4.0.23/imgs/logo-phytoterapica___a8ddafb15063415a28c300fa0d50c099.png"
+          alt="Logo"
+          className="w-72 ml-16"
+        />
       </div>
 
       <div className="flex gap-8">

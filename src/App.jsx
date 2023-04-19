@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import Produtos from "./components/Produtos";
 import Newsletter from "./components/Newsletter";
 import Detalhes from "./components/Detalhes";
+import Footer from "./components/Footer";
 
 export default function App() {
   const [showBackToTop, setShowBackToTop] = useState(false);
@@ -35,6 +36,7 @@ export default function App() {
       <Produtos />
       <Newsletter />
       <Detalhes />
+      <Footer />
       {showBackToTop && <BackToTop />}
     </>
   );
